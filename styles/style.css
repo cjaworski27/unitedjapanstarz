@@ -3,53 +3,35 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh;
-    background-image: url('image/OSAKA-Downtown.jpg'); /* Correct path */
+    flex-direction: column;
+    align-items: center;
+    background-image: url('image/OSAKA-Downtown.jpg');
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
-    color: red; /* Make sure text is readable */
-    flex-direction: column; /* Stack content vertically */
-    background-color: #333; /* Fallback color for testing */
+    color: white;
 }
 
-.container {
-    text-align: center; /* Center the text inside the container */
-    display: flex;
-    flex-direction: column; /* Stack the elements vertically */
-    justify-content: center; /* Vertically center items */
-    align-items: center; /* Horizontally center items */
-    gap: 20px; /* Optional space between items */
+header {
+    text-align: center;
+    margin: 20px 0;
 }
 
-.welcome-message {
-    display: flex;
-    flex-direction: column; /* Stack the elements vertically */
-    gap: 10px; /* Space between text */
-}
-
-.welcome-message h1 {
-    font-size: 3rem;
-}
-
-.welcome-message h2 {
-    font-size: 2rem;
-    font-weight: normal;
-}
-
-.logo {
-    width: 100px;
+header img {
+    max-width: 100px;
     height: auto;
-    display: block;
-    margin: 0 auto;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block; /* Ensures the image doesn’t cause inline issues */
-    margin: 0 auto; /* Centers the image if necessary */
+section {
+    width: 80%;
+    margin: 20px 0;
+    text-align: center;
+    padding: 20px;
 }
 
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
