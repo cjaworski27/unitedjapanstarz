@@ -1,3 +1,11 @@
+/* Ensure the body and html cover the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Flexbox layout to center content */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start; /* Ensure the content starts at the top of the page */
     background-image: url('image/OSAKA-Downtown.jpg');
     background-size: cover;
     background-position: center;
@@ -12,6 +21,7 @@ body {
     color: white;
 }
 
+/* Header styles */
 header {
     text-align: center;
     margin: 20px 0;
@@ -22,16 +32,24 @@ header img {
     height: auto;
 }
 
+/* Section styling */
 section {
     width: 80%;
     margin: 20px 0;
     text-align: center;
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparency behind content */
 }
 
+/* Footer styles */
 footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
     color: white;
+}
+
+/* Ensuring the background color doesn't interfere with the image */
+body {
+    background-color: transparent;
 }
