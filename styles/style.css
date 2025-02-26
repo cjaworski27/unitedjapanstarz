@@ -6,7 +6,7 @@ body {
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     height: 100vh;
-    background-image: url('image/OSAKA Downtown.jpg'); /* Correct path */
+    background-image: url('image/OSAKA-Downtown.jpg'); /* Correct path */
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
