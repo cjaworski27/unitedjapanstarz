@@ -45,3 +45,11 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensures the image doesn’t cause inline issues */
+    margin: 0 auto; /* Centers the image if necessary */
+}
+
