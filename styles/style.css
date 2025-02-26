@@ -10,7 +10,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    color: white; /* Make sure text is readable */
+    color: red; /* Make sure text is readable */
     flex-direction: column; /* Stack content vertically */
 }
 
@@ -38,18 +38,4 @@ body {
     height: auto;
     display: block;
     margin: 0 auto;
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('image/OSAKA Downtown.jpg'); /* Ensure the path and file extension are correct */
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    color: red; /* Make sure text is readable on the background */
 }
