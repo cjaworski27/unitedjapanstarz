@@ -18,9 +18,9 @@ jobs:
       - name: 'Deploy to Azure Static Web Apps'
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{481e5988306f94a7313a818d217b11e214f6b7489c104258fd3dfaf5416a921f04-c838efa3-2250-4a94-b614-daf7956cd3a701014220dcbf8910}}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           action: upload
           app_location: "/"  # Location of your app files (HTML, CSS, JS, etc.), adjust if in a subfolder
           output_location: "/"  # Usually set to "/" for static HTML sites
         env:
-          AZURE_STATIC_WEB_APPS_API_TOKEN: ${{481e5988306f94a7313a818d217b11e214f6b7489c104258fd3dfaf5416a921f04-c838efa3-2250-4a94-b614-daf7956cd3a701014220dcbf8910}}
+          AZURE_STATIC_WEB_APPS_API_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
