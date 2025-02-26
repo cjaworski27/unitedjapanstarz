@@ -2,26 +2,35 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex; /* Enable flexbox */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    height: 100vh; /* Ensure body takes full viewport height */
-    background-image: url('image/OSAKA Downtown.jpg'); /* Your background image */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+    background-image: url('image/OSAKA Downtown.jpg'); /* Correct path */
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    color: white; /* Make sure text is readable */
+    flex-direction: column; /* Stack content vertically */
 }
 
-.container { 
-    /* Optional: This div will contain the main content, you can add it around your content */
-    text-align: center; /* Center text in the container */
-    padding: 20px;
-    color: white; /* Change the text color to make it readable on the background */
+.container {
+    text-align: center; /* Center the text inside the container */
 }
 
-header, footer, section {
-    width: 100%;
-    /* Add any other styling you want for your header, section, or footer */
+.welcome-message {
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically */
+    gap: 10px; /* Space between text */
+}
+
+.welcome-message h1 {
+    font-size: 3rem;
+}
+
+.welcome-message h2 {
+    font-size: 2rem;
+    font-weight: normal;
 }
 
 .logo {
@@ -30,10 +39,17 @@ header, footer, section {
     display: block;
     margin: 0 auto;
 }
-.background-image {
-    background-image: url('image/OSAKA Downtown.jpg'); /* Replace with your image path */
-    background-size: cover; /* This ensures the image covers the entire page */
-    background-position: center center; /* This centers the image */
-    background-attachment: fixed; /* This keeps the background image fixed when scrolling */
-    color: black; /* Optional: change text color to make it readable on the background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('image/OSAKA Downtown.jpg'); /* Ensure the path and file extension are correct */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white; /* Make sure text is readable on the background */
 }
