@@ -2,34 +2,28 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Ensure body takes full viewport height */
+    background-image: url('image/OSAKA Downtown.jpg'); /* Your background image */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-section {
+
+.container { 
+    /* Optional: This div will contain the main content, you can add it around your content */
+    text-align: center; /* Center text in the container */
     padding: 20px;
+    color: white; /* Change the text color to make it readable on the background */
 }
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+
+header, footer, section {
+    width: 100%;
+    /* Add any other styling you want for your header, section, or footer */
 }
+
 .logo {
     width: 100px;
     height: auto;
@@ -37,9 +31,9 @@ footer {
     margin: 0 auto;
 }
 .background-image {
-    background-image: url('image/OSAKA Downtownjpg'); /* Replace with your image path */
+    background-image: url('image/OSAKA Downtown.jpg'); /* Replace with your image path */
     background-size: cover; /* This ensures the image covers the entire page */
     background-position: center center; /* This centers the image */
     background-attachment: fixed; /* This keeps the background image fixed when scrolling */
-    color: white; /* Optional: change text color to make it readable on the background */
+    color: black; /* Optional: change text color to make it readable on the background */
 }
