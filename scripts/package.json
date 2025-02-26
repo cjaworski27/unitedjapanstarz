@@ -1,0 +1,8 @@
+{
+  "name": "my-static-html-site",
+  "version": "1.0.0",
+  "scripts": {
+    "build:azure": "echo 'No build step for static HTML site'"
+  },
+  "dependencies": {}
+}
