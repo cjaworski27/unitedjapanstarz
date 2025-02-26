@@ -51,5 +51,5 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    color: white; /* Make sure text is readable on the background */
+    color: red; /* Make sure text is readable on the background */
 }
