@@ -28,7 +28,7 @@ body {
     height: 100%;
     min-height: 100vh; /* Ensure the background covers the full page */
     background-image: url('image/kamisama1.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat; /* Make sure the image doesn't repeat */
     z-index: -1; /* Keep the background behind the content */
