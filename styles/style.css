@@ -16,8 +16,10 @@ body {
     justify-content: flex-start; /* Ensure content starts at the top */
     min-height: 100vh; /* Ensure the body fills the screen */
     background-color: transparent;
+    position: relative; /* Ensures positioning works for .background-container */
 }
 
+/* Background container styling */
 .background-container {
     position: absolute;
     top: 0;
@@ -52,7 +54,7 @@ section {
     color: white;
 }
 
-/* Footer styles */
+/* Footer styles (optional) */
 footer {
     text-align: center;
     padding: 10px;
