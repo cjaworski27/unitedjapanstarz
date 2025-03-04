@@ -37,9 +37,26 @@
         nav ul li a {
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
         }
+
+        /* Styling the background container */
+        .background-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('image/kamisama1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: -1; /* Ensure it stays behind content */
+        }
     </style>
 </head>
-<body style="background-image: url('image/kamisama1.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<body>
+    <!-- Background Image Container -->
+    <div class="background-container"></div>
+
     <header>
         <img src="image/UJZlogo.jpg" alt="UJZLogo" class="logo">
         <h1>瞬間を抱きしめよう</h1>
@@ -62,12 +79,13 @@
         <p>Check out photos and videos of our performances.</p>
         <img src="image/UnitedJapanStarz1.jpg" alt="Top8BentenJam">
     </section>
-    
-<iframe width="600" height="800" src="https://www.youtube.com/embed/9gX7oeyMcfE?si=9XoSQ7S1WlzkYFBa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <h2>BentenJam Top8 Battle</h
+
+    <iframe width="600" height="800" src="https://www.youtube.com/embed/9gX7oeyMcfE?si=9XoSQ7S1WlzkYFBa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>BentenJam Top8 Battle</h2> <!-- Fixed the typo here -->
+
     <section id="contact">
         <h2>Contact Us</h2>
         <p>collinjaworski97@gmail.com</p>
     </section>
-
-     
+</body>
+</html>
