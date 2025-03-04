@@ -59,4 +59,13 @@ section {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: tran
+    background-color: transparent;
+    color: white;
+}
+
+/* Mobile Optimization for Background */
+@media (max-width: 768px) {
+    .background-container {
+        background-attachment: scroll; /* Remove fixed background on mobile */
+    }
+}
