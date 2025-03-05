@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('https://github.com/cjaworski27/unitedjapanstarz/blob/main/image/OSAKA-Downtown.jpg');
+    background-image: url('https://raw.githubusercontent.com/cjaworski27/unitedjapanstarz/refs/heads/main/image/OSAKA-Downtown.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
