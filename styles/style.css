@@ -16,11 +16,10 @@ body {
     justify-content: flex-start; /* Ensure content starts at the top */
     min-height: 100vh; /* Ensure the body fills the screen */
     background-image: url('image/kamisama1.jpg');
-    background-size: cover;  /* Ensure the image covers the full background */
+    background-size: cover;
     background-position: center;
-    background-attachment: fixed;  /* Keeps the background in place during scrolling */
+    background-attachment: fixed;
     background-color: transparent; /* Ensure no other background color conflicts */
-    object-fit: cover; /* Makes sure the image covers the space without distortion */
 }
 
 /* Header styles */
