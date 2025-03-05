@@ -9,12 +9,6 @@ html, body {
     background-attachment: fixed;
 }
 
-@media (max-width: 768px) {
-    html, body {
-        background-image: url('https://raw.githubusercontent.com/cjaworski27/unitedjapanstarz/main/image/OSAKA-Downtown-small.jpg');
-    }
-}
-
 /* Set a wrapper to ensure background behavior */
 body {
     font-family: Arial, sans-serif;
@@ -47,36 +41,25 @@ section {
     color: white;
 }
 
+/* Video section styling */
+#video {
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly darker background for the video */
+    padding: 40px 0;
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.video-container iframe {
+    width: 80%; /* Limit width to prevent squishing */
+    max-width: 1000px;
+    height: 500px;
+}
+
 /* Footer styles */
 footer {
     text-align: center;
     padding: 10px;
     background-color: transparent;
     color: white;
-}
-
-/* Responsive YouTube video container */
-.video-container {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 315px; /* This is the height for the video */
-    background: #000; /* Optional: Background color */
-    z-index: 100; /* Ensure the video is above other elements */
-}
-
-.video-container iframe {
-    width: 100%;
-    height: 100%;
-    border: none; /* Remove border */
-}
-
-/* Add styles for the heading */
-h1 {
-    font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Ensure the text is readable against the background */
-    color: white;
-    text-align: center;
-    margin: 30px 0;
 }
