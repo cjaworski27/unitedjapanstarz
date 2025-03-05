@@ -32,14 +32,26 @@
         <img src="image/UnitedJapanStarz1.jpg" alt="Top8BentenJam">
     </section>
 
-    <!-- YouTube Video -->
-    <iframe width="400" height="400" src="https://www.youtube.com/embed/9gX7oeyMcfE?si=9XoSQ7S1WlzkYFBa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <h1>BentenJam Top8 Battle</h1>
+    <!-- The video will now be displayed at the bottom via CSS -->
+    <div class="video-container"></div>
 
     <!-- Section Contact -->
     <section id="contact">
         <h2>Contact Us</h2>
         <p>collinjaworski97@gmail.com</p>
     </section>
+
+    <!-- JavaScript to inject the YouTube iframe dynamically -->
+    <script>
+      window.onload = function() {
+        const videoContainer = document.querySelector('.video-container');
+        const iframe = document.createElement('iframe');
+        iframe.src = "https://www.youtube.com/embed/9gX7oeyMcfE?si=9XoSQ7S1WlzkYFBa"; // Replace with your actual video ID
+        iframe.frameborder = "0";
+        iframe.allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture";
+        iframe.allowfullscreen = true;
+        videoContainer.appendChild(iframe);
+      }
+    </script>
 </body>
 </html>
