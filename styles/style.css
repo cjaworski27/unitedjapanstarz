@@ -31,6 +31,51 @@ header img {
     height: auto;
 }
 
+header h1 {
+    color: white;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Subtle shadow for readability */
+}
+
+/* Navigation Styling */
+nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark, semi-transparent background to contrast with the image */
+    padding: 10px 0; /* Add padding for spacing */
+    width: 100%; /* Ensure it spans the full width */
+    position: sticky; /* Make the navigation sticky so it stays at the top when scrolling */
+    top: 0; /* Sticky at the top */
+    z-index: 10; /* Ensure it stays above other content */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f1c40f; /* Bright yellow text color for contrast */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+    background-color: rgba(255, 87, 34, 0.8); /* Orange color on hover */
+    color: white; /* Change text color to white on hover */
+}
+
+/* Optional: Add a shadow for extra emphasis on navigation */
+nav {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8); /* Soft shadow for separation */
+}
+
 /* Section styling */
 section {
     width: 80%;
